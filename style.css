@@ -1,0 +1,204 @@
+body{
+    font-weight:normal;
+}
+.header{
+	display:flex;
+	background-color:#f7e5d2;
+	position:fixed;
+    top: 0;
+    width: 100%;
+	z-index:1;
+	justify-content:space-between;
+	padding:30px;
+}
+.logo{
+	text-decoration:none;
+	color:black;
+	font-size:40px;
+	padding-left:0;
+}
+.header-list{
+	list-style-type: none;
+	text-decoration:none;
+	display:flex;
+	align-items:center;
+	font-size: 17px;
+	margin:0;
+	padding-left:0;
+}
+.header-list li a:hover{
+	color:grey;
+}
+.header-list li a{
+	text-decoration:none;
+	display:flex;
+	color:black;
+}
+.header ul li{
+	margin-left:20px;
+	list-style-type:none;
+}
+.header ul{
+	margin-left:40%;
+}
+.loginicon a{
+	gap:10px;
+}
+.bannerimage{
+	background-image:url("https://img.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg?w=826&t=st=1718270220~exp=1718270820~hmac=5ae943b7a57b7c4b824dbe27ec6365f49b20cb5aca3fdf6ee938984e6126e40c");
+	width:1349px;
+	height:132%;
+	background-repeat:no-repeat;
+	background-size:cover;
+    background-attachment:fixed;
+}
+.banner{
+	position:absolute;
+}
+.banner-text {
+    color:white;
+	padding-left:70px;
+	font-size:20px;
+	margin-top:310px;
+}
+.banner-heading{
+    color:white;
+	padding-left:70px;
+	font-size:70px;
+	font-family:Georgial;
+	margin-top:50px;
+}
+.banner-button{
+	padding-left:70px;
+	margin-top:50px;
+}
+.button1, .button2 {
+	border:1px  solid white;
+	text-decoration:none;
+	color:white;
+	padding:10px 24px;
+}
+.button2{
+	margin-left:30px;
+}
+.button1:hover{
+	background-color:grey;
+}
+.button2:hover{
+	background-color:grey;
+}
+
+
+
+.carousel-inner{
+	background-color:grey;
+	color:white;
+	height:10%;
+    text-align:center;	
+}
+.carousel-item-active ,.carousel-item{
+	margin-top:20px;
+	transition:.1s ease;
+}
+
+
+.section2{
+	display:flex;
+	justify-content:space-between;
+}
+.box{
+    padding:92px 162px;
+}
+.box h2{
+	font-size:70px;
+}
+.button3{
+	border:1px solid black;
+	text-decoration:none;
+	padding:10px 24px;
+    color:black;
+	margin-top:10px;
+}
+.button3:hover{
+	background-color:grey;
+}
+.details{
+    background-color:#FBF2E8;
+	text-align:center;
+	padding-top:5% 5%s;
+}
+.box1{
+	display:flex;
+	padding:5% 24%;
+	justify-content:space-evenly;
+}
+.details h2 {
+	 font-size:60px;
+}	
+ .address{
+    border-right:1px solid black;
+	padding-right:10%;
+}
+.imagesbox{
+    display:flex;
+}
+.footer{
+    background-color:#404D3C;
+	color:white;
+	display:flex;
+	gap:12%;
+	font-size:27px;
+	padding:3%;
+	align-items:center;
+}
+.footer-left{
+    padding-left:62px;
+}
+.footer p{
+	font-size:16px;    
+}
+.footer label{
+	font-size:10px;
+}
+.footer input{
+   border-color:white;
+	background-color:transparent;
+	height:40px;
+	width:240px;
+	padding:15px;
+}
+.footer-input button{
+	background-color:transparent;
+	border:1px solid white;
+	color:white;
+	height:40px;
+	width:90px;
+	font-size:15px;
+}
+.footer button:hover{
+	background-color:grey;
+}
+.social-link li{
+    list-style-type: none;
+}
+.social-link li a{
+    text-decoration:none;
+	color:white;
+	font-size:50px;
+}
+.copyright{
+    text-align:center;
+	background-color:#FBF2E8;
+	color:grey;
+	margin:0px;
+	font-size:16px;
+}
+
+.wix-link{
+	color:grey;
+	text-decoration:underline black;
+}
+.hello{
+margin-top:-39.5px;
+margin-left:240px;	
+}
